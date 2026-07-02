@@ -23,7 +23,7 @@ export default function StartScreen({ navigation }) {
      
         
     
-      <NextButton label="Login" onPress={() => navigation.navigate("Login")} />
+      {/* <NextButton label="Login" onPress={() => navigation.navigate("Login")} /> */}
       <StatusBar style="light" />
     </SafeAreaView>
   );
